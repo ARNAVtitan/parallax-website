@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+:root
+{
+    --font-oswald: 'Oswald',sans-serif;
+    --font-source-sans: 'Source Sans Pro',sans-serif;
+    --color-black: #000;
+    --color-white: #fff;
+    --color-gray: #f2f2f2;
+    --padding-section: 60px;
+    --font-size-h1: 24px;
+    --font-size-h2:70px;
+    --font-size-h3:14px;
+    --font-size-p:14px;
+    --line-height-p:24px;
+    --letter-spacing-h2:10px;
+    --letter--spacing-h3:8px;
+    --overlay-opacity:0.7;
+}
+
+#main
+{
+   width: 100%;  padding: 0;
+}
+.content-asset p{margin:0 auto}
+.margin-top-10{padding-top:10px ;}
+
+#parallax-gfg h1{
+    font-family: var(--font-oswald);
+    font-size: var(--font-size-h1);
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--color-black);
+    padding: 0;
+    margin: 0;
+    
+}
+#parallax-gfg h2{
+    font-family: var(--font-oswald);
+    font-size: var(--font-size-h2);
+    font-weight: 400;
+    letter-spacing: var(--letter-spacing-h2);
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-white);
+    z-index: 10;
+    opacity: 0.9;
+}
+#parallax-gfg h3
+{
+    font-family: var(--font-oswald);
+    font-size: var(--font-size-h3);
+    font-weight: 400;
+    letter-spacing: var(--letter--spacing-h3);
+    
+    text-transform: uppercase;
+    color: var(--color-black);
+    z-index: 10;
+    opacity: 0.9;
+}
+#parallax-gfg p{
+    font-family: var(--font-source-sans);
+    font-size: var(--font-size-p);
+    letter-spacing: var(--letter--spacing-p);
+    font-weight: 400;
+    line-height: var(--line-height-p);
+    
+
+}
+
+.first-character
+{
+    font-weight: 400;
+    float: left;
+    font-size:84px;
+    line-height: 64px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    font-family: var(--font-source-sans);
+}
+#parallax-gfg .title
+{
+background:var(--color-white);
+padding: var(--padding-section);
+margin: 0 auto;
+text-align: center;
+}
+#parallax-gfg .title h1
+{
+    font-size: 35px;
+    letter-spacing: var(--letter--spacing-h3);
+}
+#parallax-gfg .block{
+    background: var(--color-white);
+    padding: var(--padding-section);
+    width: 820px;
+    margin: 0 auto;
+    text-align:justify;
+}
+
+#parallax-gfg .parallax-one,
+#parallax-gfg .parallax-two,
+#parallax-gfg .parallax-three
+{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative; 
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#parallax-gfg .parallax-one
+{
+background-image: url(https://assets.datamation.com/uploads/2023/12/dm_20231212-data-structure.png);
+background-position: top center;
+}
+#parallax-gfg .parallax-two
+{
+    background-image: url(https://xbsoftware.com/wp-content/uploads/2023/03/website-development-process-full-guide-1-twi.jpg);
+    background-position: top center;
+}
+#parallax-gfg .parallax-three
+{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9ArIul_NKYMEMC2t4NHoNGc8C5CsDiF2usQ&s);
+    background-position: top center;
+
+}
+
+#parallax-gfg .line-break
+{
+border-bottom: 1px solid var(--color-black) ;
+width: 150px;
+margin: 0 auto;
+}
+@media screen and (max-width:959px) and (min-width:768px)
+{
+    #parallax-gfg .block{
+        padding: 40px;
+        width: 620px;
+    }
+}
+
+@media screen and (max-width:959px) and (min-width:768px)
+{
+    #parallax-gfg .block{
+        padding: 30px;
+        width: 620px;
+    }
+    #paralleax-gfg h2{
+        font-size: 30px;
+    }
+    #parallax-gfg .parallax-one,
+#parallax-gfg .parallax-two,
+#parallax-gfg .parallax-three
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+}
+@media screen and (max-width:479px)
+{
+    #parallax-gfg .block{
+        padding: 30px 115px;
+        width: 290px;
+    }
+    #parallax-gfg .title h1
+{
+    font-size: 25px;
+    letter-spacing: var(--letter--spacing-h3);
+}
+}
