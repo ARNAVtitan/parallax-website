@@ -1,4 +1,4 @@
-Welcome to my **Parallax Website** project! 🎉 This website demonstrates a visually stunning parallax scrolling effect using just **HTML** and **CSS**—no JavaScript required. 
+Welcome to my **Parallax Website** project! 🎉 This website demonstrates a visually stunning parallax scrolling effect using just **HTML** and **CSS**— no JavaScript required. 
 
  🌟 Features
 - Smooth parallax scrolling for an immersive user experience.
